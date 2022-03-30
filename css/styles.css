@@ -28,6 +28,16 @@ img {
     height: auto;
 }
 
+
+
+/* OUTLYNE STYLES */
+*:focus {
+    outline: 2px dashed #7296EC;
+    outline-offset: 3px;
+}
+
+
+
 /* BUTTON  */
 .button {
     display: inline-block;
@@ -126,6 +136,24 @@ img {
 }
 .currency-rates-value {
 }
+
+
+/* GLOBAL SEARCH FORM */
+.global-search-form {
+    margin-right: 25px;
+}
+
+.global-search-form-input {
+    border: 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: normal;
+}
+
 
 /* LANG-TOGGLER */
 .lang-toggle {
